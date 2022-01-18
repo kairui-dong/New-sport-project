@@ -1,0 +1,1098 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0297821ECF0E6BC3E9D4BEFE /* Pods__________UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3640DD139B620BEB2D5672 /* Pods__________UITests.framework */; };
+		BC9DE7AD688303855B04F5C6 /* Pods_____Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2300EBFC433980C5F96DDCBC /* Pods_____Tests.framework */; };
+		CA13180127954CB700CB1378 /* WechatIMG795.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CA13180027954CB700CB1378 /* WechatIMG795.jpeg */; };
+		CA131804279556E000CB1378 /* mima.png in Resources */ = {isa = PBXBuildFile; fileRef = CA131802279556DF00CB1378 /* mima.png */; };
+		CA131805279556E000CB1378 /* zhanghao.png in Resources */ = {isa = PBXBuildFile; fileRef = CA131803279556E000CB1378 /* zhanghao.png */; };
+		CA13181C2795695800CB1378 /* homePageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13181B2795695800CB1378 /* homePageModel.m */; };
+		CA13181F2795696A00CB1378 /* homePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13181E2795696A00CB1378 /* homePageView.m */; };
+		CA1318222795698900CB1378 /* homeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1318212795698900CB1378 /* homeController.m */; };
+		CA131825279569A200CB1378 /* marketPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA131824279569A200CB1378 /* marketPageModel.m */; };
+		CA131828279569B400CB1378 /* marketPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA131827279569B400CB1378 /* marketPageView.m */; };
+		CA13182B279569CD00CB1378 /* marketPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13182A279569CD00CB1378 /* marketPageController.m */; };
+		CA13182E279569F300CB1378 /* sportPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13182D279569F300CB1378 /* sportPageModel.m */; };
+		CA13183127956A0900CB1378 /* sportPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13183027956A0900CB1378 /* sportPageView.m */; };
+		CA13183427956A2600CB1378 /* sportPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13183327956A2600CB1378 /* sportPageController.m */; };
+		CA13183727956A3E00CB1378 /* communityPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13183627956A3E00CB1378 /* communityPageModel.m */; };
+		CA13183A27956A4F00CB1378 /* communityPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13183927956A4F00CB1378 /* communityPageView.m */; };
+		CA13183D27956A6A00CB1378 /* communityPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13183C27956A6A00CB1378 /* communityPageController.m */; };
+		CA13184027956A9000CB1378 /* minePageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13183F27956A9000CB1378 /* minePageModel.m */; };
+		CA13184327956AA300CB1378 /* minePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13184227956AA300CB1378 /* minePageView.m */; };
+		CA13184627956AB200CB1378 /* minePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13184527956AB200CB1378 /* minePageController.m */; };
+		CA13184C2795758E00CB1378 /* shequ.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1318472795758D00CB1378 /* shequ.png */; };
+		CA13184D2795758E00CB1378 /* wode.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1318482795758E00CB1378 /* wode.png */; };
+		CA13184E2795758E00CB1378 /* shouye-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1318492795758E00CB1378 /* shouye-2.png */; };
+		CA13184F2795758E00CB1378 /* shouchang.png in Resources */ = {isa = PBXBuildFile; fileRef = CA13184A2795758E00CB1378 /* shouchang.png */; };
+		CA1318502795758E00CB1378 /* yundong.png in Resources */ = {isa = PBXBuildFile; fileRef = CA13184B2795758E00CB1378 /* yundong.png */; };
+		CA247435278938110058B19F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA247434278938110058B19F /* AppDelegate.m */; };
+		CA247438278938110058B19F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA247437278938110058B19F /* SceneDelegate.m */; };
+		CA24743B278938110058B19F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24743A278938110058B19F /* ViewController.m */; };
+		CA24743E278938110058B19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA24743C278938110058B19F /* Main.storyboard */; };
+		CA247440278938150058B19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA24743F278938150058B19F /* Assets.xcassets */; };
+		CA247443278938150058B19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA247441278938150058B19F /* LaunchScreen.storyboard */; };
+		CA247446278938150058B19F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA247445278938150058B19F /* main.m */; };
+		CA247450278938150058B19F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24744F278938150058B19F /* ____Tests.m */; };
+		CA24745A278938150058B19F /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA247459278938150058B19F /* ____UITests.m */; };
+		CA24745C278938150058B19F /* ____UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24745B278938150058B19F /* ____UITestsLaunchTests.m */; };
+		CA24746E278938E90058B19F /* registerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24746D278938E90058B19F /* registerController.m */; };
+		CA247471278939020058B19F /* registerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA247470278939020058B19F /* registerView.m */; };
+		CA247474278939220058B19F /* registerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA247473278939220058B19F /* registerModel.m */; };
+		D1C010C7B9A64669DA89EF7E /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD5A683B086CDCB5EAC88E9 /* Pods_____.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA24744C278938150058B19F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA247428278938110058B19F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA24742F278938110058B19F;
+			remoteInfo = "安安趣跑";
+		};
+		CA247456278938150058B19F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA247428278938110058B19F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA24742F278938110058B19F;
+			remoteInfo = "安安趣跑";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16405C8479919C315F9B795E /* Pods-安安趣跑-安安趣跑UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-安安趣跑-安安趣跑UITests.release.xcconfig"; path = "Target Support Files/Pods-安安趣跑-安安趣跑UITests/Pods-安安趣跑-安安趣跑UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2300EBFC433980C5F96DDCBC /* Pods_____Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_____Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FD38FB96161E03272C6225 /* Pods-安安趣跑.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-安安趣跑.release.xcconfig"; path = "Target Support Files/Pods-安安趣跑/Pods-安安趣跑.release.xcconfig"; sourceTree = "<group>"; };
+		47927974D52FC7C496A42949 /* Pods-安安趣跑-安安趣跑UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-安安趣跑-安安趣跑UITests.debug.xcconfig"; path = "Target Support Files/Pods-安安趣跑-安安趣跑UITests/Pods-安安趣跑-安安趣跑UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B3640DD139B620BEB2D5672 /* Pods__________UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods__________UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA8B67C34F6471266D7FCC0 /* Pods-安安趣跑Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-安安趣跑Tests.release.xcconfig"; path = "Target Support Files/Pods-安安趣跑Tests/Pods-安安趣跑Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CA13180027954CB700CB1378 /* WechatIMG795.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG795.jpeg; sourceTree = "<group>"; };
+		CA131802279556DF00CB1378 /* mima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mima.png; sourceTree = "<group>"; };
+		CA131803279556E000CB1378 /* zhanghao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhanghao.png; sourceTree = "<group>"; };
+		CA13181A2795695800CB1378 /* homePageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homePageModel.h; sourceTree = "<group>"; };
+		CA13181B2795695800CB1378 /* homePageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homePageModel.m; sourceTree = "<group>"; };
+		CA13181D2795696A00CB1378 /* homePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homePageView.h; sourceTree = "<group>"; };
+		CA13181E2795696A00CB1378 /* homePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homePageView.m; sourceTree = "<group>"; };
+		CA1318202795698900CB1378 /* homeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeController.h; sourceTree = "<group>"; };
+		CA1318212795698900CB1378 /* homeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeController.m; sourceTree = "<group>"; };
+		CA131823279569A200CB1378 /* marketPageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketPageModel.h; sourceTree = "<group>"; };
+		CA131824279569A200CB1378 /* marketPageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketPageModel.m; sourceTree = "<group>"; };
+		CA131826279569B400CB1378 /* marketPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketPageView.h; sourceTree = "<group>"; };
+		CA131827279569B400CB1378 /* marketPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketPageView.m; sourceTree = "<group>"; };
+		CA131829279569CD00CB1378 /* marketPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marketPageController.h; sourceTree = "<group>"; };
+		CA13182A279569CD00CB1378 /* marketPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marketPageController.m; sourceTree = "<group>"; };
+		CA13182C279569F300CB1378 /* sportPageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sportPageModel.h; sourceTree = "<group>"; };
+		CA13182D279569F300CB1378 /* sportPageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sportPageModel.m; sourceTree = "<group>"; };
+		CA13182F27956A0900CB1378 /* sportPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sportPageView.h; sourceTree = "<group>"; };
+		CA13183027956A0900CB1378 /* sportPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sportPageView.m; sourceTree = "<group>"; };
+		CA13183227956A2600CB1378 /* sportPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sportPageController.h; sourceTree = "<group>"; };
+		CA13183327956A2600CB1378 /* sportPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sportPageController.m; sourceTree = "<group>"; };
+		CA13183527956A3E00CB1378 /* communityPageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = communityPageModel.h; sourceTree = "<group>"; };
+		CA13183627956A3E00CB1378 /* communityPageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = communityPageModel.m; sourceTree = "<group>"; };
+		CA13183827956A4F00CB1378 /* communityPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = communityPageView.h; sourceTree = "<group>"; };
+		CA13183927956A4F00CB1378 /* communityPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = communityPageView.m; sourceTree = "<group>"; };
+		CA13183B27956A6A00CB1378 /* communityPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = communityPageController.h; sourceTree = "<group>"; };
+		CA13183C27956A6A00CB1378 /* communityPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = communityPageController.m; sourceTree = "<group>"; };
+		CA13183E27956A9000CB1378 /* minePageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minePageModel.h; sourceTree = "<group>"; };
+		CA13183F27956A9000CB1378 /* minePageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = minePageModel.m; sourceTree = "<group>"; };
+		CA13184127956AA300CB1378 /* minePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minePageView.h; sourceTree = "<group>"; };
+		CA13184227956AA300CB1378 /* minePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = minePageView.m; sourceTree = "<group>"; };
+		CA13184427956AB200CB1378 /* minePageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minePageController.h; sourceTree = "<group>"; };
+		CA13184527956AB200CB1378 /* minePageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = minePageController.m; sourceTree = "<group>"; };
+		CA1318472795758D00CB1378 /* shequ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shequ.png; sourceTree = "<group>"; };
+		CA1318482795758E00CB1378 /* wode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wode.png; sourceTree = "<group>"; };
+		CA1318492795758E00CB1378 /* shouye-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye-2.png"; sourceTree = "<group>"; };
+		CA13184A2795758E00CB1378 /* shouchang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shouchang.png; sourceTree = "<group>"; };
+		CA13184B2795758E00CB1378 /* yundong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yundong.png; sourceTree = "<group>"; };
+		CA247430278938110058B19F /* 安安趣跑.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "安安趣跑.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA247433278938110058B19F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA247434278938110058B19F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA247436278938110058B19F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CA247437278938110058B19F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CA247439278938110058B19F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA24743A278938110058B19F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA24743D278938110058B19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA24743F278938150058B19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA247442278938150058B19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA247444278938150058B19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA247445278938150058B19F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA24744B278938150058B19F /* 安安趣跑Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "安安趣跑Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA24744F278938150058B19F /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		CA247455278938150058B19F /* 安安趣跑UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "安安趣跑UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA247459278938150058B19F /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		CA24745B278938150058B19F /* ____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		CA24746C278938E90058B19F /* registerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = registerController.h; sourceTree = "<group>"; };
+		CA24746D278938E90058B19F /* registerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = registerController.m; sourceTree = "<group>"; };
+		CA24746F278939020058B19F /* registerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = registerView.h; sourceTree = "<group>"; };
+		CA247470278939020058B19F /* registerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = registerView.m; sourceTree = "<group>"; };
+		CA247472278939220058B19F /* registerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = registerModel.h; sourceTree = "<group>"; };
+		CA247473278939220058B19F /* registerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = registerModel.m; sourceTree = "<group>"; };
+		F790E88C7CA88E90163B28F2 /* Pods-安安趣跑.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-安安趣跑.debug.xcconfig"; path = "Target Support Files/Pods-安安趣跑/Pods-安安趣跑.debug.xcconfig"; sourceTree = "<group>"; };
+		FF95D912A46C2FE60714B598 /* Pods-安安趣跑Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-安安趣跑Tests.debug.xcconfig"; path = "Target Support Files/Pods-安安趣跑Tests/Pods-安安趣跑Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFD5A683B086CDCB5EAC88E9 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA24742D278938110058B19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C010C7B9A64669DA89EF7E /* Pods_____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA247448278938150058B19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9DE7AD688303855B04F5C6 /* Pods_____Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA247452278938150058B19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0297821ECF0E6BC3E9D4BEFE /* Pods__________UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73052273246720F5DC69CA42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5A683B086CDCB5EAC88E9 /* Pods_____.framework */,
+				7B3640DD139B620BEB2D5672 /* Pods__________UITests.framework */,
+				2300EBFC433980C5F96DDCBC /* Pods_____Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1317FF27954C8100CB1378 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				CA13180027954CB700CB1378 /* WechatIMG795.jpeg */,
+				CA131802279556DF00CB1378 /* mima.png */,
+				CA131803279556E000CB1378 /* zhanghao.png */,
+				CA1318472795758D00CB1378 /* shequ.png */,
+				CA13184A2795758E00CB1378 /* shouchang.png */,
+				CA1318492795758E00CB1378 /* shouye-2.png */,
+				CA1318482795758E00CB1378 /* wode.png */,
+				CA13184B2795758E00CB1378 /* yundong.png */,
+			);
+			path = picture;
+			sourceTree = "<group>";
+		};
+		CA131806279566B000CB1378 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				CA13180D2795681A00CB1378 /* homeModel */,
+				CA13180C2795681700CB1378 /* homeView */,
+				CA13180B2795681500CB1378 /* homeController */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		CA131807279566B300CB1378 /* marketPage */ = {
+			isa = PBXGroup;
+			children = (
+				CA1318102795684200CB1378 /* marketPageModel */,
+				CA13180F2795683F00CB1378 /* marketPageView */,
+				CA13180E2795683D00CB1378 /* marketPageController */,
+			);
+			path = marketPage;
+			sourceTree = "<group>";
+		};
+		CA131808279566BF00CB1378 /* sportPage */ = {
+			isa = PBXGroup;
+			children = (
+				CA1318132795688000CB1378 /* sportPageModel */,
+				CA1318122795687E00CB1378 /* sportPageView */,
+				CA1318112795687C00CB1378 /* sportPageController */,
+			);
+			path = sportPage;
+			sourceTree = "<group>";
+		};
+		CA131809279566C200CB1378 /* communityPage */ = {
+			isa = PBXGroup;
+			children = (
+				CA131816279568AB00CB1378 /* communityPageModel */,
+				CA131815279568A900CB1378 /* communityPageView */,
+				CA131814279568A700CB1378 /* communityPageController */,
+			);
+			path = communityPage;
+			sourceTree = "<group>";
+		};
+		CA13180A279566C400CB1378 /* minePage */ = {
+			isa = PBXGroup;
+			children = (
+				CA1318192795690600CB1378 /* minePageModel */,
+				CA1318182795690400CB1378 /* minePageView */,
+				CA1318172795690200CB1378 /* minePageController */,
+			);
+			path = minePage;
+			sourceTree = "<group>";
+		};
+		CA13180B2795681500CB1378 /* homeController */ = {
+			isa = PBXGroup;
+			children = (
+				CA1318202795698900CB1378 /* homeController.h */,
+				CA1318212795698900CB1378 /* homeController.m */,
+			);
+			path = homeController;
+			sourceTree = "<group>";
+		};
+		CA13180C2795681700CB1378 /* homeView */ = {
+			isa = PBXGroup;
+			children = (
+				CA13181D2795696A00CB1378 /* homePageView.h */,
+				CA13181E2795696A00CB1378 /* homePageView.m */,
+			);
+			path = homeView;
+			sourceTree = "<group>";
+		};
+		CA13180D2795681A00CB1378 /* homeModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA13181A2795695800CB1378 /* homePageModel.h */,
+				CA13181B2795695800CB1378 /* homePageModel.m */,
+			);
+			path = homeModel;
+			sourceTree = "<group>";
+		};
+		CA13180E2795683D00CB1378 /* marketPageController */ = {
+			isa = PBXGroup;
+			children = (
+				CA131829279569CD00CB1378 /* marketPageController.h */,
+				CA13182A279569CD00CB1378 /* marketPageController.m */,
+			);
+			path = marketPageController;
+			sourceTree = "<group>";
+		};
+		CA13180F2795683F00CB1378 /* marketPageView */ = {
+			isa = PBXGroup;
+			children = (
+				CA131826279569B400CB1378 /* marketPageView.h */,
+				CA131827279569B400CB1378 /* marketPageView.m */,
+			);
+			path = marketPageView;
+			sourceTree = "<group>";
+		};
+		CA1318102795684200CB1378 /* marketPageModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA131823279569A200CB1378 /* marketPageModel.h */,
+				CA131824279569A200CB1378 /* marketPageModel.m */,
+			);
+			path = marketPageModel;
+			sourceTree = "<group>";
+		};
+		CA1318112795687C00CB1378 /* sportPageController */ = {
+			isa = PBXGroup;
+			children = (
+				CA13183227956A2600CB1378 /* sportPageController.h */,
+				CA13183327956A2600CB1378 /* sportPageController.m */,
+			);
+			path = sportPageController;
+			sourceTree = "<group>";
+		};
+		CA1318122795687E00CB1378 /* sportPageView */ = {
+			isa = PBXGroup;
+			children = (
+				CA13182F27956A0900CB1378 /* sportPageView.h */,
+				CA13183027956A0900CB1378 /* sportPageView.m */,
+			);
+			path = sportPageView;
+			sourceTree = "<group>";
+		};
+		CA1318132795688000CB1378 /* sportPageModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA13182C279569F300CB1378 /* sportPageModel.h */,
+				CA13182D279569F300CB1378 /* sportPageModel.m */,
+			);
+			path = sportPageModel;
+			sourceTree = "<group>";
+		};
+		CA131814279568A700CB1378 /* communityPageController */ = {
+			isa = PBXGroup;
+			children = (
+				CA13183B27956A6A00CB1378 /* communityPageController.h */,
+				CA13183C27956A6A00CB1378 /* communityPageController.m */,
+			);
+			path = communityPageController;
+			sourceTree = "<group>";
+		};
+		CA131815279568A900CB1378 /* communityPageView */ = {
+			isa = PBXGroup;
+			children = (
+				CA13183827956A4F00CB1378 /* communityPageView.h */,
+				CA13183927956A4F00CB1378 /* communityPageView.m */,
+			);
+			path = communityPageView;
+			sourceTree = "<group>";
+		};
+		CA131816279568AB00CB1378 /* communityPageModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA13183527956A3E00CB1378 /* communityPageModel.h */,
+				CA13183627956A3E00CB1378 /* communityPageModel.m */,
+			);
+			path = communityPageModel;
+			sourceTree = "<group>";
+		};
+		CA1318172795690200CB1378 /* minePageController */ = {
+			isa = PBXGroup;
+			children = (
+				CA13184427956AB200CB1378 /* minePageController.h */,
+				CA13184527956AB200CB1378 /* minePageController.m */,
+			);
+			path = minePageController;
+			sourceTree = "<group>";
+		};
+		CA1318182795690400CB1378 /* minePageView */ = {
+			isa = PBXGroup;
+			children = (
+				CA13184127956AA300CB1378 /* minePageView.h */,
+				CA13184227956AA300CB1378 /* minePageView.m */,
+			);
+			path = minePageView;
+			sourceTree = "<group>";
+		};
+		CA1318192795690600CB1378 /* minePageModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA13183E27956A9000CB1378 /* minePageModel.h */,
+				CA13183F27956A9000CB1378 /* minePageModel.m */,
+			);
+			path = minePageModel;
+			sourceTree = "<group>";
+		};
+		CA247427278938110058B19F = {
+			isa = PBXGroup;
+			children = (
+				CA1317FF27954C8100CB1378 /* picture */,
+				CA247432278938110058B19F /* 安安趣跑 */,
+				CA24744E278938150058B19F /* 安安趣跑Tests */,
+				CA247458278938150058B19F /* 安安趣跑UITests */,
+				CA247431278938110058B19F /* Products */,
+				DF51DE34E59C14D7396ED859 /* Pods */,
+				73052273246720F5DC69CA42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA247431278938110058B19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA247430278938110058B19F /* 安安趣跑.app */,
+				CA24744B278938150058B19F /* 安安趣跑Tests.xctest */,
+				CA247455278938150058B19F /* 安安趣跑UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA247432278938110058B19F /* 安安趣跑 */ = {
+			isa = PBXGroup;
+			children = (
+				CA247433278938110058B19F /* AppDelegate.h */,
+				CA247434278938110058B19F /* AppDelegate.m */,
+				CA247436278938110058B19F /* SceneDelegate.h */,
+				CA247437278938110058B19F /* SceneDelegate.m */,
+				CA247439278938110058B19F /* ViewController.h */,
+				CA24743A278938110058B19F /* ViewController.m */,
+				CA2474682789385F0058B19F /* register */,
+				CA131806279566B000CB1378 /* homePage */,
+				CA131807279566B300CB1378 /* marketPage */,
+				CA131808279566BF00CB1378 /* sportPage */,
+				CA131809279566C200CB1378 /* communityPage */,
+				CA13180A279566C400CB1378 /* minePage */,
+				CA24743C278938110058B19F /* Main.storyboard */,
+				CA24743F278938150058B19F /* Assets.xcassets */,
+				CA247441278938150058B19F /* LaunchScreen.storyboard */,
+				CA247444278938150058B19F /* Info.plist */,
+				CA247445278938150058B19F /* main.m */,
+			);
+			path = "安安趣跑";
+			sourceTree = "<group>";
+		};
+		CA24744E278938150058B19F /* 安安趣跑Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CA24744F278938150058B19F /* ____Tests.m */,
+			);
+			path = "安安趣跑Tests";
+			sourceTree = "<group>";
+		};
+		CA247458278938150058B19F /* 安安趣跑UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA247459278938150058B19F /* ____UITests.m */,
+				CA24745B278938150058B19F /* ____UITestsLaunchTests.m */,
+			);
+			path = "安安趣跑UITests";
+			sourceTree = "<group>";
+		};
+		CA2474682789385F0058B19F /* register */ = {
+			isa = PBXGroup;
+			children = (
+				CA24746B278938960058B19F /* registerModel */,
+				CA24746A278938940058B19F /* registerView */,
+				CA247469278938910058B19F /* registerController */,
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		CA247469278938910058B19F /* registerController */ = {
+			isa = PBXGroup;
+			children = (
+				CA24746C278938E90058B19F /* registerController.h */,
+				CA24746D278938E90058B19F /* registerController.m */,
+			);
+			path = registerController;
+			sourceTree = "<group>";
+		};
+		CA24746A278938940058B19F /* registerView */ = {
+			isa = PBXGroup;
+			children = (
+				CA24746F278939020058B19F /* registerView.h */,
+				CA247470278939020058B19F /* registerView.m */,
+			);
+			path = registerView;
+			sourceTree = "<group>";
+		};
+		CA24746B278938960058B19F /* registerModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA247472278939220058B19F /* registerModel.h */,
+				CA247473278939220058B19F /* registerModel.m */,
+			);
+			path = registerModel;
+			sourceTree = "<group>";
+		};
+		DF51DE34E59C14D7396ED859 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F790E88C7CA88E90163B28F2 /* Pods-安安趣跑.debug.xcconfig */,
+				28FD38FB96161E03272C6225 /* Pods-安安趣跑.release.xcconfig */,
+				47927974D52FC7C496A42949 /* Pods-安安趣跑-安安趣跑UITests.debug.xcconfig */,
+				16405C8479919C315F9B795E /* Pods-安安趣跑-安安趣跑UITests.release.xcconfig */,
+				FF95D912A46C2FE60714B598 /* Pods-安安趣跑Tests.debug.xcconfig */,
+				AFA8B67C34F6471266D7FCC0 /* Pods-安安趣跑Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA24742F278938110058B19F /* 安安趣跑 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA24745F278938150058B19F /* Build configuration list for PBXNativeTarget "安安趣跑" */;
+			buildPhases = (
+				4BFA7D3B6F86F550DA91D25C /* [CP] Check Pods Manifest.lock */,
+				CA24742C278938110058B19F /* Sources */,
+				CA24742D278938110058B19F /* Frameworks */,
+				CA24742E278938110058B19F /* Resources */,
+				A99414E05AD0BC9F099F23DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "安安趣跑";
+			productName = "安安趣跑";
+			productReference = CA247430278938110058B19F /* 安安趣跑.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA24744A278938150058B19F /* 安安趣跑Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA247462278938150058B19F /* Build configuration list for PBXNativeTarget "安安趣跑Tests" */;
+			buildPhases = (
+				01273655F3C6B608A156AA43 /* [CP] Check Pods Manifest.lock */,
+				CA247447278938150058B19F /* Sources */,
+				CA247448278938150058B19F /* Frameworks */,
+				CA247449278938150058B19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA24744D278938150058B19F /* PBXTargetDependency */,
+			);
+			name = "安安趣跑Tests";
+			productName = "安安趣跑Tests";
+			productReference = CA24744B278938150058B19F /* 安安趣跑Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA247454278938150058B19F /* 安安趣跑UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA247465278938150058B19F /* Build configuration list for PBXNativeTarget "安安趣跑UITests" */;
+			buildPhases = (
+				CC6401546FFC3935CAFE7D23 /* [CP] Check Pods Manifest.lock */,
+				CA247451278938150058B19F /* Sources */,
+				CA247452278938150058B19F /* Frameworks */,
+				CA247453278938150058B19F /* Resources */,
+				BE71C7C4EB6A8DBF1D576DA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA247457278938150058B19F /* PBXTargetDependency */,
+			);
+			name = "安安趣跑UITests";
+			productName = "安安趣跑UITests";
+			productReference = CA247455278938150058B19F /* 安安趣跑UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA247428278938110058B19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CA24742F278938110058B19F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CA24744A278938150058B19F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CA24742F278938110058B19F;
+					};
+					CA247454278938150058B19F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CA24742F278938110058B19F;
+					};
+				};
+			};
+			buildConfigurationList = CA24742B278938110058B19F /* Build configuration list for PBXProject "安安趣跑" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA247427278938110058B19F;
+			productRefGroup = CA247431278938110058B19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA24742F278938110058B19F /* 安安趣跑 */,
+				CA24744A278938150058B19F /* 安安趣跑Tests */,
+				CA247454278938150058B19F /* 安安趣跑UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA24742E278938110058B19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA247443278938150058B19F /* LaunchScreen.storyboard in Resources */,
+				CA13184E2795758E00CB1378 /* shouye-2.png in Resources */,
+				CA131804279556E000CB1378 /* mima.png in Resources */,
+				CA13184D2795758E00CB1378 /* wode.png in Resources */,
+				CA1318502795758E00CB1378 /* yundong.png in Resources */,
+				CA13184F2795758E00CB1378 /* shouchang.png in Resources */,
+				CA13184C2795758E00CB1378 /* shequ.png in Resources */,
+				CA247440278938150058B19F /* Assets.xcassets in Resources */,
+				CA24743E278938110058B19F /* Main.storyboard in Resources */,
+				CA13180127954CB700CB1378 /* WechatIMG795.jpeg in Resources */,
+				CA131805279556E000CB1378 /* zhanghao.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA247449278938150058B19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA247453278938150058B19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01273655F3C6B608A156AA43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-安安趣跑Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BFA7D3B6F86F550DA91D25C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-安安趣跑-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99414E05AD0BC9F099F23DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-安安趣跑/Pods-安安趣跑-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-安安趣跑/Pods-安安趣跑-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-安安趣跑/Pods-安安趣跑-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE71C7C4EB6A8DBF1D576DA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-安安趣跑-安安趣跑UITests/Pods-安安趣跑-安安趣跑UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-安安趣跑-安安趣跑UITests/Pods-安安趣跑-安安趣跑UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-安安趣跑-安安趣跑UITests/Pods-安安趣跑-安安趣跑UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC6401546FFC3935CAFE7D23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-安安趣跑-安安趣跑UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA24742C278938110058B19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA13183D27956A6A00CB1378 /* communityPageController.m in Sources */,
+				CA247474278939220058B19F /* registerModel.m in Sources */,
+				CA13183727956A3E00CB1378 /* communityPageModel.m in Sources */,
+				CA13184627956AB200CB1378 /* minePageController.m in Sources */,
+				CA13184327956AA300CB1378 /* minePageView.m in Sources */,
+				CA131825279569A200CB1378 /* marketPageModel.m in Sources */,
+				CA13183A27956A4F00CB1378 /* communityPageView.m in Sources */,
+				CA13184027956A9000CB1378 /* minePageModel.m in Sources */,
+				CA13181C2795695800CB1378 /* homePageModel.m in Sources */,
+				CA13181F2795696A00CB1378 /* homePageView.m in Sources */,
+				CA13183127956A0900CB1378 /* sportPageView.m in Sources */,
+				CA24743B278938110058B19F /* ViewController.m in Sources */,
+				CA13182E279569F300CB1378 /* sportPageModel.m in Sources */,
+				CA247471278939020058B19F /* registerView.m in Sources */,
+				CA247435278938110058B19F /* AppDelegate.m in Sources */,
+				CA13183427956A2600CB1378 /* sportPageController.m in Sources */,
+				CA247446278938150058B19F /* main.m in Sources */,
+				CA13182B279569CD00CB1378 /* marketPageController.m in Sources */,
+				CA247438278938110058B19F /* SceneDelegate.m in Sources */,
+				CA1318222795698900CB1378 /* homeController.m in Sources */,
+				CA24746E278938E90058B19F /* registerController.m in Sources */,
+				CA131828279569B400CB1378 /* marketPageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA247447278938150058B19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA247450278938150058B19F /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA247451278938150058B19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA24745C278938150058B19F /* ____UITestsLaunchTests.m in Sources */,
+				CA24745A278938150058B19F /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA24744D278938150058B19F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA24742F278938110058B19F /* 安安趣跑 */;
+			targetProxy = CA24744C278938150058B19F /* PBXContainerItemProxy */;
+		};
+		CA247457278938150058B19F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA24742F278938110058B19F /* 安安趣跑 */;
+			targetProxy = CA247456278938150058B19F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA24743C278938110058B19F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA24743D278938110058B19F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA247441278938150058B19F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA247442278938150058B19F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA24745D278938150058B19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA24745E278938150058B19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA247460278938150058B19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F790E88C7CA88E90163B28F2 /* Pods-安安趣跑.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 574B733AJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "安安趣跑/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA247461278938150058B19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28FD38FB96161E03272C6225 /* Pods-安安趣跑.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 574B733AJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "安安趣跑/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA247463278938150058B19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF95D912A46C2FE60714B598 /* Pods-安安趣跑Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 574B733AJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/安安趣跑.app/安安趣跑";
+			};
+			name = Debug;
+		};
+		CA247464278938150058B19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA8B67C34F6471266D7FCC0 /* Pods-安安趣跑Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 574B733AJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/安安趣跑.app/安安趣跑";
+			};
+			name = Release;
+		};
+		CA247466278938150058B19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47927974D52FC7C496A42949 /* Pods-安安趣跑-安安趣跑UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 574B733AJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "安安趣跑";
+			};
+			name = Debug;
+		};
+		CA247467278938150058B19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16405C8479919C315F9B795E /* Pods-安安趣跑-安安趣跑UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 574B733AJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "安安趣跑";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA24742B278938110058B19F /* Build configuration list for PBXProject "安安趣跑" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA24745D278938150058B19F /* Debug */,
+				CA24745E278938150058B19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA24745F278938150058B19F /* Build configuration list for PBXNativeTarget "安安趣跑" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA247460278938150058B19F /* Debug */,
+				CA247461278938150058B19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA247462278938150058B19F /* Build configuration list for PBXNativeTarget "安安趣跑Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA247463278938150058B19F /* Debug */,
+				CA247464278938150058B19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA247465278938150058B19F /* Build configuration list for PBXNativeTarget "安安趣跑UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA247466278938150058B19F /* Debug */,
+				CA247467278938150058B19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA247428278938110058B19F /* Project object */;
+}

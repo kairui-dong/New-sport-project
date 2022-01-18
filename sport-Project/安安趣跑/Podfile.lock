@@ -1,0 +1,40 @@
+PODS:
+  - AMapFoundation (1.6.9)
+  - AMapSearch (8.1.0):
+    - AMapFoundation (~> 1.6.9)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - JSONModel (1.8.0)
+  - Masonry (1.1.0)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+
+DEPENDENCIES:
+  - AMapSearch
+  - FMDB
+  - JSONModel
+  - Masonry
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - AMapFoundation
+    - AMapSearch
+    - FMDB
+    - JSONModel
+    - Masonry
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AMapFoundation: 8d8ecbb0b2e9ce5487995360d26c885d94642bfd
+  AMapSearch: 5c1cc07429f04b9cc76438fcb2411c66fdbbb178
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+
+PODFILE CHECKSUM: 965b2c5b8d487d98bbf73e90df076219f9650728
+
+COCOAPODS: 1.11.0.rc.1

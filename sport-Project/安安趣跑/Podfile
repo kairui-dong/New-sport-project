@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+
+pod 'AMapSearch'
+pod 'SDWebImage'
+pod 'JSONModel'
+pod 'Masonry'
+pod 'FMDB'
+
+target '安安趣跑' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for 安安趣跑
+
+  target '安安趣跑Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '安安趣跑UITests' do
+    # Pods for testing
+  end
+
+end
