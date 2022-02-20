@@ -6,8 +6,13 @@
 //
 
 #import "homeController.h"
+#import "homePageModel.h"
+#import "homePageView.h"
 
 @interface homeController ()
+@property (nonatomic, strong) homePageModel *myModel;
+@property (nonatomic, strong) homePageView *myView;
+
 
 @end
 
@@ -17,6 +22,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    _myView = [[homePageView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    _myModel = [[homePageModel alloc] init];
+    
+    [_myView creatUI];
+    [self.view addSubview:_myView];
     
     
     

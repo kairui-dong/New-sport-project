@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface homePageView : UIView
 
+
+//UI创建函数
+- (void) creatUI;
+
 @end
 
 NS_ASSUME_NONNULL_END
