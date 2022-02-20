@@ -14,9 +14,24 @@ NS_ASSUME_NONNULL_BEGIN
 @class AMapSearchAPI;
 @interface sportPageView : UIView
 
-
+//运动界面的初始背景
+@property (nonatomic, strong) UIImageView *backgroundImageView;
+//显示里程的label(Title用来显示标题，Content用来显示具体运动里程)
+@property (nonatomic, strong) UILabel *labelTitle;
+@property (nonatomic, strong) UILabel *labelContent;
+//开始运动按钮
 @property (nonatomic, strong) UIButton *startButton;
+//提示用户跑步注意事项的按钮
+@property (nonatomic, strong) UIButton *tipsButton;
+//设置跑步目标的按钮
+@property (nonatomic, strong) UIButton *setTargetButton;
+//设置目标选择内容视图的UIView
+@property (nonatomic, strong) UIView *selectView;
+//设置内容选择界面的UIPickerView
+@property (nonatomic, strong) UIPickerView *targetPickerView;
 
+
+//地图中的属性
 @property (nonatomic, strong) UIButton *buttonBack;
 
 //地图的属性
